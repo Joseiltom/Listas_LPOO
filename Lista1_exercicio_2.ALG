@@ -5,14 +5,14 @@ Algoritmo "semnome"
 // Autor(a)    : Joseiltom Dantas de Oliveira Junior       CPD: 042520
 // Data atual  : 17/04/2018
 Var
-// Seção de Declarações das variáveis 
-c : real
+   // Seção de Declarações das variáveis
+   c : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+   // Seção de Comandos, procedimento, funções, operadores, etc...
 
-escreval("Informe a temperatura em C:")
-leia(c)
-escreval("Está temperatura é equivalente a ", ((9 * c + 160) / 5), "Fahrenheit")
+   escreval("Informe a temperatura em C:")
+   leia(c)
+   escreval("Está temperatura é equivalente a ", ((9 * c + 160) / 5), "Fahrenheit")
 
 Fimalgoritmo

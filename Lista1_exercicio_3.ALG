@@ -5,16 +5,16 @@ Algoritmo "semnome"
 // Autor(a)    : Joseiltom Dantas de Oliveira Junior       CPD: 042520
 // Data atual  : 17/04/2018
 Var
-// Seção de Declarações das variáveis 
-altura, raio : real
+   // Seção de Declarações das variáveis
+   altura, raio : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+   // Seção de Comandos, procedimento, funções, operadores, etc...
 
-escreval("Informe a altura da lata:")
-leia(altura)
-escreval("Informe o raio da lata:")
-leia(raio)
-escreval("O volume da lata é de: ", (pi * (raio^2) * altura))
+   escreval("Informe a altura da lata:")
+   leia(altura)
+   escreval("Informe o raio da lata:")
+   leia(raio)
+   escreval("O volume da lata é de: ", (pi * (raio^2) * altura))
 
 Fimalgoritmo

@@ -5,14 +5,14 @@ Algoritmo "semnome"
 // Autor(a)    : Joseiltom Dantas de Oliveira Junior       CPD: 042520
 // Data atual  : 17/04/2018
 Var
-// Seção de Declarações das variáveis 
-num : inteiro
+   // Seção de Declarações das variáveis
+   num : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seção de Comandos, procedimento, funções, operadores, etc...
 
-escreval("Informe um numero:")
-leia(num)
-escreval("O valor de ", num, " ao quadrado é", (num^2))
+   escreval("Informe um numero:")
+   leia(num)
+   escreval("O valor de ", num, " ao quadrado é", (num^2))
 
 Fimalgoritmo
