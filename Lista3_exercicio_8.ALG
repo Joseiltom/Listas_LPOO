@@ -6,21 +6,29 @@ Algoritmo "semnome"
 // Data atual  : 18/04/2018
 Var
 // Seção de Declarações das variáveis 
-i, n : inteiro
+i, n, cont, numero : inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 escreval("Digite um numero:")
-leia(i)
+leia(numero)
 escreva("os numeros impares são: ")
-
-para n de 1 ate i passo 2 faca
+cont <- 0
+para n de 1 ate 999999 passo 2 faca
     escreva(n, ", ")
+    cont <- cont + 1
+    se cont = numero entao
+        interrompa
+    fimse
 fimpara
 escreval
 escreva("os numeros pares são: ")
-
-para n de 0 ate i passo 2 faca
+cont <- 0
+para n de 0 ate 999999 passo 2 faca
     escreva(n, ", ")
+    cont <- cont + 1
+    se cont = numero entao
+        interrompa
+    fimse
 fimpara
 Fimalgoritmo
